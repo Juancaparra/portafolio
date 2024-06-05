@@ -38,3 +38,38 @@ h1{
     text-align: center;
 }
 
+.projects{
+    
+}
+
+.target{
+    display: flex;
+    width: 80%;
+    height: 10rem;
+    background-color: blue;
+    border-radius: 1rem;
+    margin-left: 2rem;
+}
+
+.img-target{
+    width: 40%;
+}
+
+.img-target > img{
+    width: 80%;
+    height: 80%;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.desc-project{
+    width: 60%;
+}
+
+.desc-project > h3{
+    text-align: center;
+}
+
+.desc-project > p{
+    text-align: center;
+}
