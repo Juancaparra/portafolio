@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: blue;
+    display: flex;
+}
+
+.presentation{
+    width: 50%;
+}
+
+.presentation > img {
+    width: 70%;
+    height: 11rem;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    border-radius: 15px;
+}
+
+h1{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.desc{
+    width: 50%;
+    margin-right: 0.5rem;
+}
+
+.desc > h3{
+    text-align: center;
+    color: aqua;
+}
+
+.desc > p{
+    text-align: center;
+}
+
