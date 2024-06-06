@@ -38,17 +38,39 @@ h1{
     text-align: center;
 }
 
-.projects{
-    
+.img-title{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.logo{
+    background-color: rgb(54, 54, 247);
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+}
+
+.title > .img-title > .logo > img{
+    width: 3rem;
+    height: 3rem; 
+}
+
+hr{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: blue;
+    height: 0.3rem;
 }
 
 .target{
     display: flex;
     width: 80%;
-    height: 10rem;
+    height: 11rem;
     background-color: blue;
     border-radius: 1rem;
     margin-left: 2rem;
+    margin-bottom: 1rem;
 }
 
 .img-target{
