@@ -116,3 +116,23 @@ p {
     text-align: left;
 }
 
+.card-experience{
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+}
+
+.card-experience > p {
+    text-align: center;
+}
+
+.card-experience > img {
+    width: 6rem;
+}
+
+#progressBar {
+    background-color: #007bff;
+  }
+  
