@@ -145,3 +145,13 @@ p {
     margin: 0;
 }
 
+@media screen and (min-width: 394px) and (max-width: 431px) { 
+.card{
+    margin-left: 2.7rem;
+}
+
+.cards-exp{
+    margin-left: 2rem;
+}
+}
+
