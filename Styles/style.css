@@ -155,3 +155,12 @@ p {
 }
 }
 
+@media screen and (min-width: 431px) and (max-width: 480px) { 
+.card{
+    margin-left: 4rem;
+}
+    
+.cards-exp{
+    margin-left: 3.5rem;
+}
+}
