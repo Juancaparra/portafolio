@@ -238,6 +238,43 @@ h1 {
     }
     }
 
+@media screen and (min-width: 820px) and (max-width: 1520px) { 
+    .presentation > img {
+        width: 40%;
+        height: 11rem;
+        margin-left: 6rem;
+    }
+
+    h1{
+        margin-right: 2.5rem;
+    }
+
+    .desc{
+        margin-right: 3rem;
+        margin-top: 4rem;
+    }
+
+    .target{
+        margin-left: 5rem;
+    }
+
+    .references{
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .cards-exp{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card-experience{
+        width: 20rem;
+    }
+}
+
 @media screen and (min-width: 1521px)  { 
     header{
         position: fixed;
